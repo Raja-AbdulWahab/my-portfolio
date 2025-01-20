@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdul Wahab Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+        <div class="main-navbar">
+        <div class="Info">
+            <h3>Abdul Wahab</h3>
+            <i class="fa fa-envelope">  rajaabdulwahab201@gmail.com</i><br>
+            <i class="fa fa-solid fa-phone">  +92 3175722247</i>
+        </div>
+      <ul class="nav-bar">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
+    </div>
+    </nav>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <div class="image">
+        <img src="/images/myImage.jpg" stalt="Profile Image" class="profile-image">
+    </div>
+    <div class="container">
+        <h1>Abdul Wahab</h1>
+    <p>
+      Hello! I'm Abdul Wahab, a passionate web developer with expertise in creating dynamic, user-friendly, and responsive websites. 
+      I specialize in front-end technologies and have experience in backend development using the MERN stack. 
+      My goal is to bring creativity and functionality together in web design.
+    </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <img src="/images/html.png" alt="HTML Logo">
+        <p>HTML5</p>
+      </div>
+      <div class="skill">
+        <img src="/images/css.png" alt="CSS Logo">
+        <p>CSS3</p>
+      </div>
+      <div class="skill">
+        <img src="/images/js.png" alt="JavaScript Logo">
+        <p>JavaScript</p>
+      </div>
+      <div class="skill cssimage">
+        <img src="/images/react.png" alt="React Logo">
+        <p>React.js</p>
+      </div>
+      <div class="skill">
+        <img src="/images/node.png" alt="Node Logo">
+        <p>Node.js</p>
+      </div>
+      <div class="skill">
+        <img src="/images/mong.png" alt="React Logo">
+        <p>MongoDb</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project">
+        <h3>Hotel Management System</h3>
+        <p>A backend solution built using Node.js for efficient hotel management, including customer and booking modules.</p>
+      </div>
+      <div class="project">
+        <h3>Coffee Shop Website</h3>
+        <p>A visually appealing website showcasing coffee products, designed with HTML, CSS, and Bootstrap for a responsive experience.</p>
+      </div>
+      <div class="project">
+        <h3>Food Delivery Application</h3>
+        <p>A dynamic web app for food delivery services, integrating React.js for a seamless user interface and Firebase for database management.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recommendations Section -->
+  <section id="recommendations">
+    <h2>Recommendations</h2>
+    <ul id="recommendations-list">
+      <li>"Abdul's ability to create responsive designs is unmatched!" - Client A</li><hr>
+      <li>"His backend solutions are robust and efficient." - Client B</li><hr>
+      <li>"A reliable team player and a problem solver." - Client C</li><hr>
+    </ul>
+    <form id="recommendation-form">
+        <textarea name="text" id="new-recommendation" placeholder="Add a new recommendation"></textarea><br>
+      <!-- <input type="text" id="new-recommendation" placeholder="Add a new recommendation"> -->
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Home Icon -->
+  <footer>
+        <a href="#about" class="Arrow"><i class="fa fa-solid fa-arrow-up"></i></a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
